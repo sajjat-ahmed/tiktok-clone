@@ -5,42 +5,44 @@ function App() {
   return (
     // BEM
     <div className="app">
-      😀 😃 😄 😁 😆 😅 🤣 😂 🙂 🙃 😉 😊 😇 🥰 😍 🤩 😘 😗 😚 😙 😋 😛 😜 🤪 😝 🤑 🤗 🤭 🤫 🤔 🤐 🤨 😐 😑 😶 😏 😒 🙄 😬 🤥 😌 😔 😪 🤤 😴 😷 🤒 🤕 🤢 🤮 🤧 🥵 🥶 🥴 😵 🤯 🤠 🥳 😎 🤓 🧐 😕 😟 🙁 😮 😯 😲 😳 🥺 😦 😧 😨 😰 😥 😢 😭 😱 😖 😣 😞 😓 😩 😫 😤 😡 😠 🤬 😈 👿
       <div className="app__videos">
         <Video
           url=""
-          channel=""
-          song=""
+          channel="Tiktok"
+          song="😀 😃 😄 😁 😆 😅 "
           likes={222}
           messages={55}
-          description=""
+          description="This is tiktok clone!!!!"
           shares={34}
         />
+
         <Video
           url=""
-          channel=""
-          song=""
+          channel="Tiktok"
+          song="😋 😛 😜 🤪 😝 🤑 🤗 🤭"
           likes={55}
           messages={45}
-          description=""
+          description="This is tiktok clone!!!!"
           shares={11}
         />
+
         <Video
           url=""
-          channel=""
-          song=""
+          channel="Tiktok"
+          song=" 😮 😯 😲 😳 🥺 😦 😧 "
           likes={555}
           messages={67}
-          description=""
+          description="This is tiktok clone!!!!"
           shares={89}
         />
+
         <Video
           url=""
-          channel=""
-          song=""
+          channel="Tiktok"
+          song=" 😫 😤 😡 😠 🤬 😈 👿"
           likes={90}
           messages={77}
-          description=""
+          description="This is tiktok clone!!!!"
           shares={23}
         />
       </div>
